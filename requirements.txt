@@ -1,0 +1,5 @@
+# Assuming you have Python installed
+Theano
+Pillow
+h5py
+scikit-image
