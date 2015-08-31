@@ -3,6 +3,7 @@ import time
 from operator import add
 
 from toolbox import *
+
 from models import *
 
 if __name__ == "__main__":
@@ -27,12 +28,12 @@ if __name__ == "__main__":
         ws_validstop = 0.02
 
         # ------------------
-        #Model = ffn.FFN
-        #Model = ffn_bn.FFN_bn
-        #Model = ffn_ace.FFN_ace
-        #Model = ffn_lae.FFN_lae
-        #Model = ffn_vat.FFN_vat
-        Model = ffn_bn_vat.FFN_bn_vat
+        #Model = models.ffn.FFN
+        #Model = models.ffn_bn.FFN_bn
+        #Model = models.ffn_ace.FFN_ace
+        #Model = models.ffn_lae.FFN_lae
+        #Model = models.ffn_vat.FFN_vat
+        Model = models.ffn_bn_vat.FFN_bn_vat
 
         #Model = cnn.CNN
         #Model = vae1.Vae1
